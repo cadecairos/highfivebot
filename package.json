@@ -1,6 +1,6 @@
 {
   "name": "highfivebot",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "High Five IRC Bot",
   "main": "./app.js",
   "repository": {
