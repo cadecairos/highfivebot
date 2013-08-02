@@ -1,0 +1,33 @@
+High Five Bot
+=============
+
+A node bot for giving out highfives to lonely people (OR AWESOME PEOPLE!)
+
+Setup
+-----
+
+Prerequisites:
+
+* Node > v0.8.23
+* NPM > v1.2.10
+
+1) `git clone https://github.com/cadecairos/highfivebot.git`
+
+2) `cd highfivebot;`
+
+3) `npm install`
+
+4) `cp env.dist .env`
+
+5) Edit the .env file to configure the bot (see confic section below)
+
+6) run `node app` to start the bot
+
+Config
+------
+
+HOST: The URL of the IRC server
+
+NICK: The nick of the bot
+
+CHANNELS: A comma delimited string of channels. channels can be optionally prefixed with '#'

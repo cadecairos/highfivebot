@@ -15,7 +15,7 @@ if ( !env.HOST, !env.NICK, !env.CHANNELS ) {
   throw new Error( "Missing config options, check your config!" );
 }
 
-hi5regex = new RegExp( "^" + env.NICK + "\: o\/$" );
+hi5regex = new RegExp( "^" + env.NICK + ": o\/$" );
 
 client = new irc.Client( env.HOST, env.NICK, {
   channels: env.CHANNELS.split( "," ).map(function( channel ) {
