@@ -1,6 +1,8 @@
 High Five Bot
 =============
 
+[![Build Status](https://travis-ci.org/cadecairos/highfivebot.png?branch=master)](https://travis-ci.org/cadecairos/highfivebot)
+
 A node bot for giving out highfives to lonely people (OR AWESOME PEOPLE!)
 
 Setup
