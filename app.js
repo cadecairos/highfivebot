@@ -39,7 +39,6 @@ client = new irc.Client( env.HOST, env.NICK, {
 client.addListener( "message", function( from, to, message ) {
   var responded = false;
   hi5regexes.forEach(function( regex ) {
-    console.log( regex, regex.test( message ) );
     if ( !responded && regex.test( message ) ) {
       responded = true;
       client.say( to, responseGenerator( from ) );
