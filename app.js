@@ -25,8 +25,6 @@ hi5regexes = [
   new RegExp( "^" + nick + ":?\\s*wo+[!1]*\\s*$" )
 ];
 
-hi5regexes.forEach(function(s){ console.log( s );});
-
 client = new irc.Client( env.HOST, env.NICK, {
   channels: env.CHANNELS.split( "," ).map(function( channel ) {
     if ( /^#.+$/.test( channel ) ) {
